@@ -2,6 +2,8 @@ create database netflix_db;
 
 use netflix_db;
 
+
+DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix(
 	show_id VARCHAR(10),
 	type VARCHAR(10),
